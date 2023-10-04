@@ -19,6 +19,19 @@ webServer.addListener(responseManager -> {
 webServer.start();
 ```
 
+```
+	<repository>
+		<id>jitpack.io</id>
+		<url>https://jitpack.io</url>
+	</repository>
+
+	<dependency>
+	    <groupId>com.github.BingulHan</groupId>
+	    <artifactId>SocketHttpResponse</artifactId>
+	    <version>0.1</version>
+	</dependency>
+
+```
 
 Soon to be added (Coming soon):
 - Sending different pages with root
